@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+body {
+    background: #F1C27B;
+
+}
+h1, h2 {
+    font-family: 'Tilt Prism', cursive;
+    color: #0E2954;
+    text-align: center;
+    text-decoration: underline;
+}
+p, ul {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    background: #F1C27B;
+    padding: 50px;
+
+}
+
+ul {
+    margin-left: 150px;
+}
+img {
+    width: 400px;
+    aspect-ratio: 1/1;
+ 
+}
+.section2 {
+    background: #FFD89C;
+    padding: 50px;
+}
+.tutor {
+    font-family: 'Tilt Prism', cursive;
+    text-align: center;
+    color: #0E2954;
+}
+
+
+@media (Max-width: 480px) {
+    .section1 {
+        flex-direction: column;
+    }
+    ul {
+        margin-left: 0px;
+    }
+}
